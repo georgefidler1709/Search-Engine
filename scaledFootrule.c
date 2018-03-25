@@ -1,5 +1,5 @@
 //Given a set of ranklists, finds a final rank arrangement with minimum scaled footrule distance
-//By Geroge Fidler
+//By George Fidler and Eddie Belokopytov
 //16/10/17
 
 #include <stdlib.h>

@@ -1,3 +1,7 @@
+//Finds the tf-idf (term frequency–inverse document frequency) score for each 'webpage'
+//By George Fidler and Eddie Belokopytov
+//7/10/17
+
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -73,6 +77,7 @@ void multiplyByIdf(URLQueue list, int termURLs) {
 	}
 }
 
+//Print tf-idf score
 void printFunction(URLNode urlNode) {
 	printf("%s %.6lf\n", urlNode->URL, urlNode->rankScore);
 }
